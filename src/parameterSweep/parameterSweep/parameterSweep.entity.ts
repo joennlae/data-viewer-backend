@@ -86,7 +86,7 @@ export class ParameterSweepEntity {
     @Column()
     top_5_accuracy: number;
 
-    @Column()
+    @Column({nullable: true})
     total_time: number;
 
     @Column()
